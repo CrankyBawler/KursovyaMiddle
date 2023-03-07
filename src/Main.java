@@ -23,5 +23,15 @@ public class Main {
         Employee.max(employees);
         Employee.middle(employees);
         Employee.toPrintFio(employees);
+        float index = (float) 0.15;
+        Employee.indexing(employees, index);
+        System.out.println(employees[0].getSalary());
+        int department = 4;
+        Employee.minSalaryDepartment(employees, department);
+        Employee.maxSalaryDepartment(employees, department);
+        Employee.sumSalaryDepartment(employees, department);
+        Employee.middleSalaryDepartment(employees, department);
+
+
     }
 }
