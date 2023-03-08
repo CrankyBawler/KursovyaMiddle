@@ -193,4 +193,22 @@ public class Employee {
         }
         return arr;
     }
+
+    public static int toMinNumber(Employee[] arr, int a) {
+        for (int i = 0; i < arr.length; i++) {
+            if (a >= arr[i].getSalary()) {
+                System.out.println(arr[i].getId() + ". " + arr[i].getFio() + ". Заработная плата: " + arr[i].getSalary());
+            }
+        }
+        return a;
+    }
+    public static int toMaxNumber(Employee[] arr, int a) {
+        for (int i = 0; i < arr.length; i++) {
+            if (a <= arr[i].getSalary()) {
+                System.out.println(arr[i].getId() + ". " + arr[i].getFio() + ". Заработная плата: " + arr[i].getSalary());
+            }
+        }
+        return a;
+    }
+
 }

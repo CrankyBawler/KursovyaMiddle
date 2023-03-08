@@ -18,22 +18,42 @@ public class Main {
         employees[9] = new Employee("Уварова Дана Евгеньевна", 5, 27_679);
 
         Employee.toPrint(employees);
+        System.out.println();
         Employee.toPrintSum(employees);
+        System.out.println();
         Employee.min(employees);
+        System.out.println();
         Employee.max(employees);
+        System.out.println();
         Employee.middle(employees);
+        System.out.println();
         Employee.toPrintFio(employees);
+        System.out.println();
         float index = (float) 0.15;
         Employee.indexing(employees, index);
+        System.out.println();
         Employee.toPrint(employees);
+        System.out.println();
         int department = 5;
         Employee.minSalaryDepartment(employees, department);
+        System.out.println();
         Employee.maxSalaryDepartment(employees, department);
+        System.out.println();
         Employee.sumSalaryDepartment(employees, department);
+        System.out.println();
         Employee.middleSalaryDepartment(employees, department);
+        System.out.println();
         Employee.indexingDepartment(employees, index, department);
+        System.out.println();
         Employee.toPrint(employees);
+        System.out.println();
         Employee.toPrintEmployeetoDepartment(employees, department);
+        System.out.println();
+        int sum = 50_000;
+        Employee.toMinNumber(employees, sum);
+        System.out.println();
+        Employee.toMaxNumber(employees, sum);
+        System.out.println();
 
 
     }
