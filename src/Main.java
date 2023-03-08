@@ -31,6 +31,8 @@ public class Main {
         Employee.maxSalaryDepartment(employees, department);
         Employee.sumSalaryDepartment(employees, department);
         Employee.middleSalaryDepartment(employees, department);
+        Employee.indexingDepartment(employees, index, department);
+        Employee.toPrint(employees);
 
 
     }

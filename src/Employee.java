@@ -175,4 +175,14 @@ public class Employee {
                 System.out.println("Средняя сумма заработной платы по отделу " + department + " составила " + middle + " рублей.");
         return middle;
     }
+    public static float indexingDepartment(Employee[] arr, float ind, int department) {
+        float a = (float) 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (department == arr[i].getDepartment()) {
+                a = arr[i].getSalary() * ind + arr[i].getSalary();
+                arr[i].setSalary((int) a);
+            }
+        }
+        return a;
+    }
 }
