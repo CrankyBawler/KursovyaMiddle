@@ -185,4 +185,12 @@ public class Employee {
         }
         return a;
     }
+    public static Employee[] toPrintEmployeetoDepartment(Employee[] arr, int department) {
+        for (int i = 0; i < arr.length; i++) {
+            if (department == arr[i].getDepartment()) {
+                System.out.println(arr[i].getId() + ". " + arr[i].getFio() + ". Заработная плата: " + arr[i].getSalary());
+            }
+        }
+        return arr;
+    }
 }

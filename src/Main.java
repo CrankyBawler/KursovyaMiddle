@@ -26,13 +26,14 @@ public class Main {
         float index = (float) 0.15;
         Employee.indexing(employees, index);
         Employee.toPrint(employees);
-        int department = 4;
+        int department = 5;
         Employee.minSalaryDepartment(employees, department);
         Employee.maxSalaryDepartment(employees, department);
         Employee.sumSalaryDepartment(employees, department);
         Employee.middleSalaryDepartment(employees, department);
         Employee.indexingDepartment(employees, index, department);
         Employee.toPrint(employees);
+        Employee.toPrintEmployeetoDepartment(employees, department);
 
 
     }
