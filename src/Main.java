@@ -30,11 +30,11 @@ public class Main {
         Employee.toPrintFio(employees);
         System.out.println();
         float index = (float) 0.15;
-        Employee.indexing(employees, index);
+        //Employee.indexing(employees, index);
         System.out.println();
         Employee.toPrint(employees);
         System.out.println();
-        int department = 5;
+        int department = 1;
         Employee.minSalaryDepartment(employees, department);
         System.out.println();
         Employee.maxSalaryDepartment(employees, department);
